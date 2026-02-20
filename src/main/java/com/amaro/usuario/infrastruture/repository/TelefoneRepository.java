@@ -1,6 +1,6 @@
 package com.amaro.usuario.infrastruture.repository;
 
-import com.amaro.aprendendospring2.infrastructure.entity.Telefone;
+import com.amaro.usuario.infrastruture.entity.Telefone;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
