@@ -26,10 +26,11 @@ public class Endereco {
     @Column(name = "cidade", length = 150)
     private String cidade;
     @Column(name = "estado", length = 2)
-
     private String estado;
     @Column(name = "cep", length = 9)
     private String cep;
+    @Column(name = "usuario_id")
+    private Long usuario_id;
 
     @OneToMany(cascade = CascadeType.ALL)
     @JoinColumn(name = "usuario_id", referencedColumnName = "id")
